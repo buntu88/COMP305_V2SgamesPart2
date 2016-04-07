@@ -15,7 +15,6 @@ public class GameController : MonoBehaviour
     // PRIVATE INSTANCE VARIABLES
     private int _scoreValue;
     private int _livesValue;
-
     private Vector3 _playerSpawnPoint;
 
     [SerializeField]
@@ -100,16 +99,18 @@ public class GameController : MonoBehaviour
     //End Game Method
     public void _endGame()
     {
-        this.HighScoreLabel.text = "High Score: " + this._scoreValue;
-        if (LivesValue > 0 || ScoreValue > 0)
+        
+        if (LivesValue > 0)
         {
+            this.ScoreValue += 500;
             this.GameOverLabel.text = "You Win!!!";
+            
         }
         else
         {
             this.GameOverLabel.text = "Game Over!!!";
         }
-
+        this.HighScoreLabel.text = "High Score: " + this._scoreValue;
 
         this.camera.gameObject.SetActive(true);
         this.GameOverLabel.gameObject.SetActive(true);

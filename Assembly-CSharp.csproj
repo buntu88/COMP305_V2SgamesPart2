@@ -206,6 +206,7 @@
      <None Include="Assets\_Standard Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
      <None Include="Assets\_Standard Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\VortexEffect.shader" />
      <None Include="Assets\_Standard Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\_Standard Assets\Modular Backdrop Builds\Discription.txt" />
      <None Include="Assets\_Standard Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
      <None Include="Assets\_Standard Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\_Standard Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\Tonemapper.shader" />
